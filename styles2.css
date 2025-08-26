@@ -199,36 +199,59 @@ header {
 }
 /* Раздел Контакты */
 .contacts-section {
-    padding: 60px 0; /* Убираем горизонтальные отступы */
-    background-color: #e4e4e4;
+    padding: 60px 0;
+    background-color: #f2f0f0;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 20px; /* Увеличенный отступ между заголовком и содержимым */
 }
 
 .contacts-section h2 {
     font-size: 28px;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 0; /* Убираем нижний отступ у заголовка */
 }
 
 .contacts-info {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Выравнивание по левому краю */
-    width: calc(100% - 400px); /* Ширина контейнера минус 200px слева и 200px справа */
-    max-width: 600px; /* Максимальная ширина текста */
-    margin-left: 200px; /* Отступ слева */
+    align-items: flex-start;
+    width: calc(100% - 400px);
+    max-width: 600px;
+    margin-left: 200px;
 }
 
 .contacts-section p {
-    font-size: 16px;
-    text-align: left; /* Текст по левому краю */
-    width: 100%;
-    margin-bottom: 10px; /* Увеличение расстояния между строками */
+    font-size: 18px; /* Увеличенный размер шрифта для данных */
+    text-align: left;
+    margin-bottom: 15px; /* Увеличенный отступ между строками */
 }
 
 .contacts-section a {
-    color: inherit; /* Наследует цвет родительского элемента */
-    text-decoration: none; /* Убирает подчеркивание */
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Стили для ссылки ВКонтакте */
+.vk-link {
+    display: inline-block;
+    color: #000; /* Цвет текста */
+    text-decoration: none; /* Убираем подчеркивание */
+    font-size: 18px; /* Размер текста */
+    transition: color 0.3s ease; /* Анимация при наведении */
+}
+
+.vk-link:hover {
+    color: #007BFF; /* Цвет при наведении */
+}
+
+/* Иконка ВКонтакте */
+.fab.fa-vk {
+    font-size: 20px;
+    margin-right: 5px; /* Отступ между иконкой и текстом */
+}
+
+/* Жирный текст для "Открыть ВКонтакте" */
+.vk-link span {
+    font-weight: bold; /* Текст немного жирнее */
 }
