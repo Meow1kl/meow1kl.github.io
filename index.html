@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя страница</title>
+    <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css ">
+</head>
+<body>
+    <!-- Шапка -->
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="#photos">Фотографии</a></li>
+                <li><a href="#about">О воспитателе</a></li>
+                <li><a href="index2.html">Портфолио</a></li>
+                <li><a href="index3.html">Публикации</a></li>
+            <li><a href="index4.html">Обратная связь</a></li>
+            </ul>
+        </nav>
+        <div class="header-content">
+            <div class="header-text">
+                <h1>Кондрина Евгения Сергеевна</h1>
+                <p>МБДОУ № 92 "Детский сад комбинированного вида" г.Кемерово</p>
+            </div>
+            <img src="img/es.jpg" alt="Профильное фото" class="profile-image">
+        </div>
+    </header>
+
+<!-- Раздел Фотографии -->
+<section id="photos" class="photos-section">
+    <h2>Фотографии</h2>
+    <div class="photo-cards">
+
+        <!-- Карточка 1: «Друзья по переписке» -->
+        <div class="card" data-modal-id="gallery-1">
+            <img src="img/main/1.1.JPG" alt="«Друзья по переписке»">
+            <div class="card-content">
+                <h3>Друзья по переписке</h3>
+                <p>5 фотографий</p>
+            </div>
+        </div>
+
+        <!-- Модальное окно для друзья по переписке -->
+<div id="gallery-1" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="slider-container">
+            <button class="prev">&#10094;</button>
+            <img class="slide-image" src="img/main/1.1.JPG" alt="Слайд">
+            <button class="next">&#10095;</button>
+        </div>
+        <div class="gallery-images" style="display: none;">
+            <img src="img/main/1.1.JPG" alt="Фото 1">
+            <img src="img/main/1.2.JPG" alt="Фото 2">
+            <img src="img/main/1.3.JPG" alt="Фото 3">
+            <img src="img/main/1.4.JPG" alt="Фото 4">
+            <img src="img/main/1.5.JPG" alt="Фото 5">
+        </div>
+    </div>
+</div>
+        <!-- Карточка 2: «Книга - путешественница» -->
+        <div class="card" data-modal-id="gallery-2">
+            <img src="img/main/2.1.jpg" alt="«Книга - путешественница» ">
+            <div class="card-content">
+                <h3>«Книга - путешественница»</h3>
+                <p>5 фотографий</p>
+            </div>
+        </div>
+
+        <!-- Модальное окно для «Книга - путешественница» -->
+<div id="gallery-2" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="slider-container">
+            <button class="prev">&#10094;</button>
+            <img class="slide-image" src="img/main/2.1.JPG" alt="Слайд">
+            <button class="next">&#10095;</button>
+        </div>
+        <div class="gallery-images" style="display: none;">
+            <img src="img/main/2.1.jpg" alt="Фото 1">
+            <img src="img/main/2.2.jpg" alt="Фото 2">
+            <img src="img/main/2.3.jpg" alt="Фото 3">
+            <img src="img/main/2.4.jpg" alt="Фото 4">
+            <img src="img/main/2.5.jpg" alt="Фото 6">
+        </div>
+    </div>
+</div>
+        <!-- Карточка 3: Крепыши -->
+        <div class="card" data-modal-id="gallery-3">
+            <img src="img/main/3.10.jpg" alt="Крепыши">
+            <div class="card-content">
+                <h3>Крепыши</h3>
+                <p>14 фотографий</p>
+            </div>
+        </div>
+
+        <!-- Модальное окно для Крепыши -->
+<div id="gallery-3" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="slider-container">
+            <button class="prev">&#10094;</button>
+            <img class="slide-image" src="img/main/3.10.JPG" alt="Слайд">
+            <button class="next">&#10095;</button>
+        </div>
+        <div class="gallery-images" style="display: none;">
+            <img src="img/main/3.1.jpg" alt="Фото 1">
+            <img src="img/main/3.2.jpg" alt="Фото 2">
+            <img src="img/main/3.3.jpg" alt="Фото 3">
+            <img src="img/main/3.4.jpg" alt="Фото 4">
+            <img src="img/main/3.5.jpg" alt="Фото 5">
+            <img src="img/main/3.6.jpg" alt="Фото 6">
+            <img src="img/main/3.7.jpg" alt="Фото 7">
+            <img src="img/main/3.8.jpg" alt="Фото 8">
+            <img src="img/main/3.9.jpg" alt="Фото 9">
+            <img src="img/main/3.10.jpg" alt="Фото 10">
+            <img src="img/main/3.11.jpg" alt="Фото 11">
+            <img src="img/main/3.12.jpg" alt="Фото 12">
+            <img src="img/main/3.13.jpg" alt="Фото 13">
+            <img src="img/main/3.14.jpg" alt="Фото 14">
+            
+        </div>
+    </div>
+</div>
+
+        <!-- Карточка 4: Хобби в объективе -->
+        <div class="card" data-modal-id="gallery-4">
+            <img src="img/main/4.3.jpg" alt="Хобби в объективе">
+            <div class="card-content">
+                <h3>Хобби в объективе</h3>
+                <p>8 фотографий</p>
+            </div>
+        </div>
+
+        <!-- Модальное окно для Хобби в объективе -->
+<div id="gallery-4" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="slider-container">
+            <button class="prev">&#10094;</button>
+            <img class="slide-image" src="img/main/4.3.jpg" alt="Слайд">
+            <button class="next">&#10095;</button>
+        </div>
+        <div class="gallery-images" style="display: none;">
+            <img src="img/main/4.1.jpg" alt="Фото 1">
+            <img src="img/main/4.2.jpg" alt="Фото 2">
+            <img src="img/main/4.3.jpg" alt="Фото 3">
+            <img src="img/main/4.4.jpg" alt="Фото 4">
+            <img src="img/main/4.5.jpg" alt="Фото 5">
+            <img src="img/main/4.6.jpg" alt="Фото 6">
+            <img src="img/main/4.7.jpg" alt="Фото 7">
+            <img src="img/main/4.8.jpg" alt="Фото 8">
+        </div>
+    </div>
+</div>
+
+        <!-- Карточка 5: Апробация парциальной программы «Юный Кемеровчаин» -->
+        <div class="card" data-modal-id="gallery-5">
+            <img src="img/main/5.1.jpg" alt="Апробация парциальной программы «Юный Кемеровчаин»">
+            <div class="card-content">
+                <h3>Апробация парциальной программы «Юный Кемеровчаин»</h3>
+                <p>12 фотографий</p>
+            </div>
+        </div>
+
+        <!-- Модальное окно для Апробация парциальной программы «Юный Кемеровчаин» -->
+<div id="gallery-5" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="slider-container">
+            <button class="prev">&#10094;</button>
+            <img class="slide-image" src="img/main/5.1.jpg" alt="Слайд">
+            <button class="next">&#10095;</button>
+        </div>
+        <div class="gallery-images" style="display: none;">
+            <img src="img/main/5.1.jpg" alt="Фото 1">
+            <img src="img/main/5.2.jpg" alt="Фото 2">
+            <img src="img/main/5.3.jpg" alt="Фото 3">
+            <img src="img/main/5.4.jpg" alt="Фото 4">
+            <img src="img/main/5.5.jpg" alt="Фото 5">
+            <img src="img/main/5.6.jpg" alt="Фото 6">
+            <img src="img/main/5.7.jpg" alt="Фото 7">
+            <img src="img/main/5.8.jpg" alt="Фото 8">
+            <img src="img/main/5.9.jpg" alt="Фото 9">
+        </div>
+    </div>
+</div>
+        <!-- Карточка 6: методическая разрабока «Кировский фотомарафон»-->
+        <div class="card" data-modal-id="gallery-6">
+            <img src="img/main/6.6.jpg" alt="методическая разрабока «Кировский фотомарафон»">
+            <div class="card-content">
+                <h3>Методическая разрабока «Кировский фотомарафон»</h3>
+                <p>13 фотографий</p>
+            </div>
+        </div>
+
+        <!-- Модальное окно для методическая разрабока «Кировский фотомарафон»- -->
+<div id="gallery-6" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="slider-container">
+            <button class="prev">&#10094;</button>
+            <img class="slide-image" src="img/main/6.1.jpg" alt="Слайд">
+            <button class="next">&#10095;</button>
+        </div>
+        <div class="gallery-images" style="display: none;">
+            <img src="img/main/6.2.jpg" alt="Фото 1">
+            <img src="img/main/6.3.jpg" alt="Фото 2">
+            <img src="img/main/6.4.jpg" alt="Фото 3">
+            <img src="img/main/6.5.jpg" alt="Фото 4">
+            <img src="img/main/6.6.jpg" alt="Фото 5">
+            <img src="img/main/6.7.jpg" alt="Фото 6">
+            <img src="img/main/6.8.jpg" alt="Фото 7">
+            <img src="img/main/6.9.jpg" alt="Фото 8">
+            <img src="img/main/6.10.jpg" alt="Фото 9">
+            <img src="img/main/6.11.jpg" alt="Фото 10">
+            <img src="img/main/6.12.jpg" alt="Фото 11">
+            <img src="img/main/6.13.jpg" alt="Фото 12">
+            <img src="img/main/6.1.jpg" alt="Фото 13">
+
+        </div>
+    </div>
+</div>
+
+        <!-- Карточка 7: Спорт! Спорт! Спорт! -->
+        <div class="card" data-modal-id="gallery-7">
+            <img src="img/main/7.7.jpg" alt="Спорт! Спорт! Спорт!">
+            <div class="card-content">
+                <h3>Спорт! Спорт! Спорт!</h3>
+                <p>23 фотографии</p>
+            </div>
+        </div>
+
+        <!-- Модальное окно для Спорт! Спорт! Спорт! -->
+<div id="gallery-7" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="slider-container">
+            <button class="prev">&#10094;</button>
+            <img class="slide-image" src="img/main/7.7.jpg" alt="Слайд">
+            <button class="next">&#10095;</button>
+        </div>
+        <div class="gallery-images" style="display: none;">
+            <img src="img/main/7.1.jpg" alt="Фото 1">
+            <img src="img/main/7.2.jpg" alt="Фото 2">
+            <img src="img/main/7.3.jpg" alt="Фото 3">
+            <img src="img/main/7.4.jpg" alt="Фото 4">
+            <img src="img/main/7.5.jpg" alt="Фото 5">
+            <img src="img/main/7.6.jpg" alt="Фото 6">
+            <img src="img/main/7.7.jpg" alt="Фото 7">
+            <img src="img/main/7.8.jpg" alt="Фото 8">
+            <img src="img/main/7.9.jpg" alt="Фото 9">
+            <img src="img/main/7.10.jpg" alt="Фото 10">
+            <img src="img/main/7.11.jpg" alt="Фото 11">
+            <img src="img/main/7.12.jpg" alt="Фото 12">
+            <img src="img/main/7.13.jpg" alt="Фото 13">
+            <img src="img/main/7.14.jpg" alt="Фото 14">
+            <img src="img/main/7.15.jpg" alt="Фото 15">
+            <img src="img/main/7.16.jpg" alt="Фото 16">
+            <img src="img/main/7.17.jpg" alt="Фото 17">
+            <img src="img/main/7.18.jpg" alt="Фото 18">
+            <img src="img/main/7.19.jpg" alt="Фото 19">
+            <img src="img/main/7.20.jpg" alt="Фото 20">
+            <img src="img/main/7.21.jpg" alt="Фото 21">
+            <img src="img/main/7.22.jpg" alt="Фото 22">
+            <img src="img/main/7.23.jpg" alt="Фото 23">
+        </div>
+    </div>
+</div>
+
+        <!-- Карточка 5: Апробация парциальной программы «Юный Кемеровчаин» -->
+        <div class="card" data-modal-id="gallery-5">
+            <img src="img/main/5.1.jpg" alt="Апробация парциальной программы «Юный Кемеровчаин»">
+            <div class="card-content">
+                <h3>Апробация парциальной программы «Юный Кемеровчаин»</h3>
+                <p>12 фотографий</p>
+            </div>
+        </div>
+
+        <!-- Модальное окно для Апробация парциальной программы «Юный Кемеровчаин» -->
+<div id="gallery-5" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="slider-container">
+            <button class="prev">&#10094;</button>
+            <img class="slide-image" src="img/main/5.1.jpg" alt="Слайд">
+            <button class="next">&#10095;</button>
+        </div>
+        <div class="gallery-images" style="display: none;">
+            <img src="img/main/5.1.jpg" alt="Фото 1">
+            <img src="img/main/5.2.jpg" alt="Фото 2">
+            <img src="img/main/5.3.jpg" alt="Фото 3">
+            <img src="img/main/5.4.jpg" alt="Фото 4">
+            <img src="img/main/5.5.jpg" alt="Фото 5">
+            <img src="img/main/5.6.jpg" alt="Фото 6">
+            <img src="img/main/5.7.jpg" alt="Фото 7">
+            <img src="img/main/5.8.jpg" alt="Фото 8">
+            <img src="img/main/5.9.jpg" alt="Фото 9">
+        </div>
+    </div>
+</div>
+        <!-- Карточка 6: методическая разрабока «Кировский фотомарафон»-->
+        <div class="card" data-modal-id="gallery-6">
+            <img src="img/main/6.6.jpg" alt="методическая разрабока «Кировский фотомарафон»">
+            <div class="card-content">
+                <h3>Методическая разрабока «Кировский фотомарафон»</h3>
+                <p>13 фотографий</p>
+            </div>
+        </div>
+
+        <!-- Модальное окно для методическая разрабока «Кировский фотомарафон»- -->
+<div id="gallery-6" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="slider-container">
+            <button class="prev">&#10094;</button>
+            <img class="slide-image" src="img/main/6.1.jpg" alt="Слайд">
+            <button class="next">&#10095;</button>
+        </div>
+        <div class="gallery-images" style="display: none;">
+            <img src="img/main/6.2.jpg" alt="Фото 1">
+            <img src="img/main/6.3.jpg" alt="Фото 2">
+            <img src="img/main/6.4.jpg" alt="Фото 3">
+            <img src="img/main/6.5.jpg" alt="Фото 4">
+            <img src="img/main/6.6.jpg" alt="Фото 5">
+            <img src="img/main/6.7.jpg" alt="Фото 6">
+            <img src="img/main/6.8.jpg" alt="Фото 7">
+            <img src="img/main/6.9.jpg" alt="Фото 8">
+            <img src="img/main/6.10.jpg" alt="Фото 9">
+            <img src="img/main/6.11.jpg" alt="Фото 10">
+            <img src="img/main/6.12.jpg" alt="Фото 11">
+            <img src="img/main/6.13.jpg" alt="Фото 12">
+            <img src="img/main/6.1.jpg" alt="Фото 13">
+
+        </div>
+    </div>
+</div>
+    </div>
+</section>
+
+
+
+<!-- Секция Обо мне -->
+<section id="about" class="about-section">
+    <h2>О воспитателе</h2>
+    <div class="about-content">
+        <img src="img/es.jpg" alt="Фото автора" class="author-image">
+        <div class="about-text">
+            <h1><p><strong>Кондрина Евгения Сергеевна</strong></p></h1>
+
+            <p><strong>Должность:</strong> Воспитатель</p>
+
+            <p><strong>Образование:</strong> Высшее Кемеровский государственный университет культуры и искусств, специальность: «Социально-культурная деятельность», квалификация «Менеджер СКД», 2005г.</p>
+
+            <p>Среднее ГОУ СПО Киселевский педагогический колледж, специальность: «Дошкольное образование», квалификация «Воспитатель детей дошкольного возраста, руководитель физического воспитания», 2012г.</p>
+
+            <p><strong>Профессиональная карьера:</strong></p>
+
+            <p><strong>Общий стаж работы 19 лет</strong></p>
+
+            <p>14.12.2007г-02.08.2019г Муниципальное бюджетное дошкольное образовательное учреждение Киселёвского городского округа детский сад №37 воспитатель, старший воспитатель</p>
+
+            <p>11.11.2019г-12.07.2023 Муниципальное бюджетное дошкольное образовательное учреждение № 128 "Детский сад общеразвивающего вида с приоритетным осуществлением деятельности по познавательно-речевому направлению развития воспитанников" г. Кемерово, воспитатель</p>
+
+            <p>С 17.07.2023 Муниципальное бюджетное дошкольное образовательное учреждение № 92 «Детский сад комбинированного вида», воспитатель</p>
+        </div>
+    </div>
+</section>
+
+<!-- Раздел Контакты -->
+<section id="contacts" class="contacts-section">
+    <h2>Контакты</h2>
+    <div class="contacts-info">
+        <p>Телефон: <a href="tel:+73842251312">+7 384 225-13-12</a></p>
+        <p>Email: <a href="mailto:mdoy92@mail.ru">mdoy92@mail.ru</a></p>
+        <!-- Добавляем ссылку ВКонтакте -->
+        <a href="https://vk.com/teremok92kem" target="_blank" class="vk-link">
+            <i class="fab fa-vk"></i>ВКонтакте
+        </a>
+    </div>
+</section>
+
+<!-- Подключение скрипта -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const cards = document.querySelectorAll('[data-modal-id]');
+    const modals = document.querySelectorAll('.modal');
+
+    // Открытие модального окна
+    cards.forEach(card => {
+        card.addEventListener('click', () => {
+            const modalId = card.getAttribute('data-modal-id');
+            const modal = document.getElementById(modalId);
+            if (modal) {
+                modal.style.display = 'block';
+                resetSlider(modal); // Устанавливаем первую картинку
+            }
+        });
+    });
+
+    // Настройка каждого модального окна
+    modals.forEach(modal => {
+        const closeBtn = modal.querySelector('.close');
+        const prevBtn = modal.querySelector('.prev');
+        const nextBtn = modal.querySelector('.next');
+        const slideImage = modal.querySelector('.slide-image');
+        const images = Array.from(modal.querySelectorAll('.gallery-images img')).map(img => img.src);
+        let currentIndex = 0;
+
+        function showSlide(index) {
+            if (index < 0) index = images.length - 1;
+            if (index >= images.length) index = 0;
+            slideImage.src = images[index];
+            currentIndex = index;
+        }
+
+        prevBtn?.addEventListener('click', () => showSlide(currentIndex - 1));
+        nextBtn?.addEventListener('click', () => showSlide(currentIndex + 1));
+
+        // Закрытие по крестику
+        closeBtn.addEventListener('click', () => {
+            modal.style.display = 'none';
+        });
+
+        // Закрытие по клику вне окна
+        window.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                modal.style.display = 'none';
+            }
+        });
+    });
+
+    // Сброс слайдера при открытии
+    function resetSlider(modal) {
+        const images = Array.from(modal.querySelectorAll('.gallery-images img')).map(img => img.src);
+        const slideImage = modal.querySelector('.slide-image');
+        if (images.length > 0 && slideImage) {
+            slideImage.src = images[0]; // Установить первую картинку
+        }
+    }
+});
+
+</script>
